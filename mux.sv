@@ -9,8 +9,8 @@ module mux_4to1 (
             2'b00 : out = in0;
             2'b01 : out = in1;
             2'b10 : out = in2;
-            2'b11 : out = in3;
-            default : out = '0;  
+            //2'b11 : out = in3;
+           // default : out = '0;  
                        // Safe default assignment
         endcase
     end
